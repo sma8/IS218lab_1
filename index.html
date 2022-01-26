@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Favorite Foods</title>
+</head>
+<body>
+<h1>Favorite Foods Survey</h1>
+<p>Below is a survey including questions about what your favorite foods are. To begin, first write your name. At the end, please submit the form.</p>
+<form> Your Name: <label>
+    <input type="text" >
+</label></form>
+<p>1. Do you like to eat dessert?</p>
+<form>
+    <label>
+        <input type="checkbox" value="yes" >
+    </label>Yes
+    <label>
+        <input type="checkbox" value="no">
+    </label>No
+</form>
+<p>2. What are your three favorite foods to eat for lunch? Write in the field below.</p>
+<form><label>
+    <input type="text">
+</label></form>
+<p>3. Do you like to eat <a href="https://www.thespruceeats.com/chicago-style-deep-dish-pizza-2708753">deep-dish pizza</a>?</p>
+<form>
+    <label>
+        <input type="radio" value="yes">
+    </label>Yes
+    <label>
+        <input type="radio" value="no">
+    </label>No
+    <label>
+        <input type="radio" value="sometimes">
+    </label>Sometimes
+</form>
+<p>4. Which of these meals do you like to eat for dinner? Select one.</p>
+<label>
+    <select name="foods" size="5">
+        <form>
+            <option value="chicken pot pie">Chicken Pot Pie</option>
+            <option value="hamburgers">Hamburgers</option>
+            <option value="chicken wings">Chicken Wings</option>
+            <option value="soup">Soup</option>
+            <option value="steak">Steak</option>
+        </form>
+    </select>
+</label><br><br><br>
+<input type="submit"><br><br>
+<button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+    Click me to display Date and Time.</button>
+<p id="demo"></p>
+</body>
+</html>
